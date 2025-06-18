@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="99">
+    <author>Custom Rebuild</author>
+    <version>2.0.0.rebuild</version>
+    <title>
+        <en>Mineral Feed Generator</en>
+    </title>
+    <description>
+        <en>A simple generator that automatically produces mineral feed pallets. Place it and it will spawn pallets every few minutes. Completely rebuilt from scratch.</en>
+    </description>
+    
+    <iconFilename>icon_MineralMaster.dds</iconFilename>
+    <multiplayer supported="true"/>
+    
+    <specializations>
+        <specialization name="mineralSpawner" className="MineralSpawner" filename="MineralSpawner.lua"/>
+    </specializations>
+    
+    <placeables>
+        <placeable filename="MineralGenerator.xml"/>
+    </placeables>
+    
+    <storeItems>
+        <storeItem xmlFilename="MineralGenerator.xml" />
+    </storeItems>
+</modDesc>
